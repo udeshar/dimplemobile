@@ -1,0 +1,701 @@
+@font-face {
+    src: url("../Fonts/BebasNeue\ Bold.ttf");
+    font-family: BebasNeueBold;
+}
+@font-face {
+    src: url("../Fonts/Open_Sans/OpenSans-Regular.ttf");
+    font-family: openSans;
+}
+@font-face{
+    font-family:JushleyShine ;
+    src: url("../Fonts/jushley_shine/Jushley\ Shine.otf");
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    min-height: 100vh;
+    width: 100%;
+}
+.Hi_{
+    font-size: 130px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: "JushleyShine";
+    color: rgb(255, 189, 105);
+}
+.a_safe_space span{
+    font-size: 33px;
+    font-family: "OpenSans";
+    color: rgb(246, 123, 81);
+    font-style: italic;
+    text-align: left;
+    font-weight: 700;
+}
+.a_safe_space ,.last_para p{
+    font-size: 27px;
+    color: rgb(81, 86, 91);
+}
+.first-row p{
+    font-family: "opensans";
+    font-size: 23px;
+    color: rgb(81, 86, 91);
+    padding-top: 5px;
+}
+
+
+.per{
+   min-height: 70vh;
+   margin-top: 30px;
+   background: url('../images/person_pushing_banner.jpg');
+   background-size: cover;
+   background-position: right;
+}
+.per p{
+    width: 50%;
+    padding: 5% ;
+    font-size: 28px;
+    font-family: "OpenSans";
+  color: rgb(81, 86, 91);
+}
+
+.but_growth{
+    margin-top: 80px;
+    min-height: 40vh;
+}
+.but_growth img{
+    height: 100%;
+    width: 100%;
+}
+
+.cloud_banner{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../images/parachute\ banner.jpg");
+    min-height: 100vh;
+    background-size: 100% 100%;
+    overflow: visible;
+    width: 100%;
+    background-position: center;
+    position: relative;
+}
+.cloud_banner .its_abt_how{
+    font-size: 30px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  text-align: left;
+  /* width: 500px;
+  height: 275px; */
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  padding-right: 10%;
+}
+
+.about_me{
+    min-height: 80vh;
+}
+.about_me .abt_me_heading{
+    font-size: 90px;
+    padding-left: 15px;
+  font-family: "BebasNeueBold";
+  color: rgb(246, 123, 81);
+  text-align: left;
+  text-transform: uppercase;
+}
+.about_me .row_2 .abt_me_para{
+    padding-top: 20px;
+    font-size: 27px;
+  font-family: "OpenSans";
+  color: rgb(81, 86, 91);
+  line-height: 1.7;
+  text-align: left;
+  padding-left: 6%;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+} 
+.dim_img{
+    overflow: hidden;
+    min-height: 100px;
+}
+.toggle-btn{
+    font-size: 20px;
+    color: blue;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+    cursor: pointer;
+    font-style: italic;
+}
+.toggle-btn:hover{
+    text-decoration: underline;
+}
+.this-to-hide{
+    display: none;
+}
+.show_more_para{
+    font-size: 27px;
+  font-family: "OpenSans";
+  color: rgb(81, 86, 91);
+  line-height: 1.5;
+  text-align: left;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+.row3 .show_more_para{
+    padding-left: 13%;
+}
+.row3 .show_more_img{
+    padding-bottom: 0px;
+    padding-right: 0px;
+    text-align: right;
+    /* min-height: 200px; */
+    min-height: 600px;
+}
+.show_more_img img{
+    width: 85%;
+    height: 100%;
+}
+
+.image_gallery{
+    min-height: 30vh;
+    background-color: #474e58;
+    margin-top: 0px;
+    flex-direction: column;
+    padding-bottom: 7%;
+}
+.image_gallery h3{
+    font-size: 30px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: lighter;
+  position: relative;
+}
+.carousel-item img{
+    width: 70%;
+    height: 80%;
+}
+
+.school_banner{
+    background-image: url("../images/school\ banner.png");
+    background-position: center;
+    min-height:50vh;
+    /* width: 100%; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.school_banner p{
+    width:35%;
+    font-size: 27px;
+  font-family: "OpenSans";
+  color: rgb(81, 86, 91);
+  line-height: 1.5;
+  text-align: left;
+  padding-left: 6%;
+  padding-right: 4%;
+  padding-top: 10%;
+}
+
+.remember h1{
+    font-size: 90px;
+  font-family: "BebasNeueBold";
+  color: rgb(30, 173, 194);
+  font-weight: bolder;
+  margin: 0px;
+  padding: 0px;
+}
+.remember h3{
+    font-size: 90px;
+  font-family: "BebasNeueBold";
+  color: rgb(255, 189, 105);
+  margin-top: -25px;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+/* .remember .hello{
+    margin-top: -80px !important;
+} */
+.remember{
+    background-image: url("../images/Quote\ section.png");
+    min-height: 160vh;
+    background-size: 100% 100%;
+    background-position: bottom;
+    padding :0px;
+}
+
+.contact_us{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #81ac9b;
+}
+.contact_us form input{
+    margin: 0px;
+    width: 100%;
+    height: 32px;
+    border: none;
+    padding-left: 2%;
+    outline: none;
+}
+.contact_us form textarea{
+    margin: 0px;
+    width: 100%;
+    height: 32px;
+    border: none;
+    padding-left: 2%;
+    outline: none;
+}
+.contact_us form div .leftFloat{
+    margin-bottom: 5px !important;
+    font-size: 20px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  float: left;
+}
+.err{
+    float: right;
+    color: red;
+    font-family: "OpenSans";
+    font-weight: 600;
+    font-size: 14px;
+}
+.contact_us form div{
+    margin-top: 15px;
+}
+.contact_me_border{
+    padding: 15px;
+    /* display: inline; */
+    border-bottom: 1px solid white;
+    font-size: 30px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+}
+.mail-img{
+    width: 25px;
+    height: 20px;
+    margin-right: 10px;
+}
+.mail-img2{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.for_aligning{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.lets-get-in-touch{
+    font-size: 54px;
+    font-weight: 700;
+  font-family: "BebasNeueBold";
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+.mail-p{
+    font-size: 25px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+}
+.wtsapp-p{
+    font-size:25px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+}
+.submit-btn{
+    height: 17% !important;
+    border: 2px solid white !important;
+    background-color: transparent !important;
+    padding: 8px !important;
+    color: white !important;
+    width: 30% !important;
+    transition: .8s;
+}
+.submit-btn:hover{
+    background-color: #fff !important;
+    color: #81ac9b !important;
+    transition: .8s;
+}
+
+
+
+/* media queries */
+@media only screen and (max-width: 1074px){
+
+    .per{
+        background: url('../images/person_pushing_banner.jpg');
+        background-size: cover;
+        background-position:60% 30%;
+        background-repeat: no-repeat;
+        background-color: #ffdb79;
+     }
+     .per p{
+         width: 50%;
+         padding: 5% ;
+         font-size: 25px;
+         font-family: "OpenSans";
+       color: rgb(81, 86, 91);
+     }
+     .about_me .abt_me_heading{
+        font-size: 80px;
+    }
+    .about_me .row_2 .abt_me_para{
+        font-size: 26px;
+    }
+    .show_more_para{
+        font-size: 26px;
+
+    }
+    .row3 .show_more_img{
+        padding-bottom: 0px;
+        padding-right: 0px;
+        text-align: right;
+        min-height: 200px;
+    }
+    .show_more_img img{
+        width: unset;
+        height: unset;
+    }
+    .img_glr_heading{
+        font-size: 25px;
+    }
+    .school_banner p{
+        width:40%;
+        font-size: 27px;
+    }
+    .remember h1{
+        font-size: 70px;
+    }
+    .remember h3{
+        font-size: 70px;
+        margin-top: -15px;
+    }
+    .remember{
+        background-image:none;
+        min-height: 100vh;
+    }
+    .quote-img{
+        display: block !important;
+    }
+    .dim_img img{
+        height: unset;
+        width: unset;
+    }
+    .toggle-btn{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 868px){
+    .cloud_banner{
+        /* background-size: cover; */
+        min-height: 80vh;
+    }
+    .cloud_banner .its_abt_how{        
+        font-size:19px ;
+    }
+    .about_me .abt_me_heading{
+        font-size: 70px;
+    }
+    .about_me .row_2 .abt_me_para{
+        font-size: 18px;
+        padding-left: 2%;
+    }
+    .show_more_para{
+        font-size: 18px;
+    }
+    .img_glr_heading{
+        font-size: 22px;
+    }
+    .school_banner p{
+        width:40%;
+        font-size: 23px;
+    }
+    .school_banner{
+        margin-top: 20px;
+    }
+    .remember h1{
+        font-size: 50px;
+    }
+    .remember h3{
+        font-size: 50px;
+        margin-top: 0px;
+    }
+    .remember{
+        min-height: 80vh;
+    }
+    .image_gallery h3{
+        font-size: 26px;
+        padding-top: 5% !important;
+        padding-bottom: 3% !important;
+    }
+    .contact_us form div p{
+        font-size: 18px;;
+    }
+    .lets-get-in-touch{
+        font-size: 45px;
+    }
+    .mail-p{
+        font-size: 18px;
+    }
+    .wtsapp-p{
+        font-size:18px;
+    }
+    .contact_me_border{
+        font-size: 22px;
+    }
+    .toggle-btn{
+        font-size: 18px;
+    }
+    .first-row p{
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 575px){
+    .per{
+        background: url('../images/person_pushing_banner.jpg');
+        background-size: cover;
+        background-position:60% 30%;
+        background-repeat: no-repeat;
+        background-color: #ffdb79;
+     }
+     .per p{
+         width: 50%;
+         padding: 3% ;
+         font-size: 20px;
+         font-family: "OpenSans";
+       color: rgb(81, 86, 91);
+     }
+     .Hi_{
+        font-size: 100px;
+    }
+    .a_safe_space span{
+        font-size: 24px;
+    }
+    .a_safe_space ,.last_para p{
+        font-size: 18px;
+    }
+    .first-row div{
+        padding: 10px !important;
+    }
+    .cloud_banner{
+        /* background-size: cover; */
+        min-height: 60vh;
+    }
+    .cloud_banner .its_abt_how{        
+        font-size:16px ;
+    }
+    .about_me .abt_me_heading{
+        font-size: 60px;
+    }
+    .about_me .row_2 .abt_me_para{
+        font-size: 14px;
+        line-height: 1.5;
+        padding-top: 0px;
+        padding-left: 0px !important;
+        margin-left: 0px !important;
+        letter-spacing: 0px;
+        word-spacing: 1px;
+        padding-right: 2px;
+    }
+    .dim_img{
+        /* padding: 0px !important; */
+        padding-bottom: 10px !important;
+        /* adding-left: 10px !important;p */
+    }
+    .dim_para{
+        padding: 0px;
+    }
+    .show_more_para{
+        font-size: 16px;
+        padding-left: 6% !important;
+        letter-spacing: 0px;
+        word-spacing: 1px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .show_mr_pr_nopadd{
+        padding: 0px ;
+    }
+    .school_banner{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .toggle-btn{
+        font-size: 16px;
+    }
+    /* .row3 .show_more_img{
+        text-align: center !important;
+        padding: 20px !important;
+    } */
+    .img_glr_heading{
+        font-size: 19px;
+    }
+    .school_banner p{
+        /* width:100%; */
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    /* .school_banner{
+        background: none;
+    } */
+    /* .school_img{
+        display: block !important;
+
+    } */
+    .remember{
+        margin-top: 10px !important;
+    }
+    .remember h1{
+        font-size: 30px;
+    }
+    .remember h3{
+        font-size: 30px;
+        margin-top: 0px;
+    }
+    .image_gallery h3{
+        font-size: 23px;
+    }
+    .contact_us form div p{
+        font-size: 16px;;
+    }
+    .lets-get-in-touch{
+        font-size: 38px;
+    }
+    .mail-p{
+        font-size: 16px;
+    }
+    .wtsapp-p{
+        font-size:16px;
+    }
+    .contact_me_border{
+        font-size: 20px;
+    }
+    .first-row p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 385px){
+
+     .per p{
+         position: relative;
+         width: 65%;
+         padding: 6% ;
+         font-size: 14px;
+         font-family: "OpenSans";
+       color: rgb(81, 86, 91);
+     }
+     .Hi_{
+        font-size: 80px;
+    }
+    .a_safe_space span{
+        font-size: 17px;
+    }
+    .a_safe_space ,.last_para p{
+        font-size: 17px;
+    }
+    .first-row div{
+        padding: 3px !important;
+    }
+    .first-row div p{
+        font-size: 13px;
+    }
+    .cloud_banner{
+        min-height: 60vh;
+    }
+    .cloud_banner .its_abt_how{   
+        margin-top: -10px;     
+        font-size:14px ;
+        top:35%;
+        padding-right: 7%;
+    }
+    .about_me .abt_me_heading{
+        font-size: 50px;
+    }
+    .about_me .row_2 .abt_me_para{
+        font-size: 13px;
+        line-height: 1.3;
+        letter-spacing: 0px;
+        word-spacing: 1px;
+    }
+    .show_more_para{
+        font-size: 13px;
+        line-height: 1.3;
+        letter-spacing: 0px;
+        word-spacing: 1px;
+    }
+    .img_glr_heading{
+        font-size: 18px;
+    }
+    .school_banner p{
+        /* width:100%; */
+        font-size: 13px;
+        padding-left: 10px;
+        line-height: 1.3;
+    }
+    .remember{
+        min-height: 60vh;
+        margin-top: 0px !important;
+    }
+    .remember h3{
+        margin-top: 0px;
+    }
+    .image_gallery h3{
+        font-size: 18px;
+    }
+    .contact_us form div .leftFloat{
+        font-size: 14px;
+    }
+    .err{
+        font-size: 12px !important;
+        padding-top: 2px;
+        font-weight: 400;
+    }
+    .lets-get-in-touch{
+        font-size: 32px;
+    }
+    .mail-p{
+        font-size: 14px;
+    }
+    .wtsapp-p{
+        font-size:14px;
+    }
+    .contact_me_border{
+        font-size: 18px;
+    }
+    .arrows{
+        height: 20% !important;
+        width: 20% !important;
+    }
+    .image_gallery img{
+        width: 80%;
+        height: 100%;
+    }
+    .arw-left{
+        margin-left: -10px;
+    }
+    .arw-right{
+        margin-right: -10px;
+    }
+    .submit-btn{
+        height: 13% !important;
+        border: 2px solid white !important;
+        background-color: transparent !important;
+        padding: 6px !important;
+        color: white !important;
+        width: 50% !important;
+        transition: .8s;
+    }
+    .toggle-btn{
+        font-size: 14px;
+    }
+    .but_growth{
+        margin-top: 40px;
+    }
+}
