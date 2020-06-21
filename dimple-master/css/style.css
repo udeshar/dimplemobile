@@ -16,7 +16,7 @@
     box-sizing: border-box;
 }
 header{
-    min-height: 100vh;
+    min-height: 10vh;
     width: 100%;
 }
 .Hi_{
@@ -47,7 +47,7 @@ header{
 
 
 .per{
-   min-height: 70vh;
+   min-height: 20vh;
    margin-top: 30px;
    background: url('../images/person_pushing_banner.jpg');
    background-size: cover;
@@ -63,7 +63,7 @@ header{
 
 .but_growth{
     margin-top: 80px;
-    min-height: 40vh;
+    min-height: 20vh;
 }
 .but_growth img{
     height: 100%;
@@ -96,7 +96,7 @@ header{
 }
 
 .about_me{
-    min-height: 80vh;
+    min-height: 50vh;
 }
 .about_me .abt_me_heading{
     font-size: 90px;
@@ -182,7 +182,7 @@ header{
 .school_banner{
     background-image: url("../images/school\ banner.png");
     background-position: center;
-    min-height:50vh;
+    min-height:30vh;
     /* width: 100%; */
     background-size: 100%;
     background-repeat: no-repeat;
@@ -390,11 +390,15 @@ header{
     .toggle-btn{
         font-size: 20px;
     }
+    .cloud_banner{
+        /* background-size: cover; */
+        min-height: 60vh;
+    }
 }
 @media only screen and (max-width: 868px){
     .cloud_banner{
         /* background-size: cover; */
-        min-height: 80vh;
+        min-height: 60vh;
     }
     .cloud_banner .its_abt_how{        
         font-size:19px ;
@@ -432,7 +436,7 @@ header{
         margin-top: 0px;
     }
     .remember{
-        min-height: 80vh;
+        min-height: 50vh;
         margin-top: 0px !important;
     }
     .image_gallery h3{
@@ -469,6 +473,9 @@ header{
         background-position:60% 30%;
         background-repeat: no-repeat;
         background-color: #ffdb79;
+     } */
+     /* header{
+         min-height: 60vh !important;
      } */
      .per{
         background-size: 160% 100%;
@@ -605,7 +612,7 @@ header{
      }
      .per{
          background-size: 160% 100%;
-         min-height: 40vh;
+         min-height: 30vh;
      }
      
      .Hi_{
@@ -624,7 +631,7 @@ header{
         font-size: 13px;
     }
     .cloud_banner{
-        min-height: 60vh;
+        min-height: 50vh;
     }
     .cloud_banner .its_abt_how{   
         margin-top: -10px;     
