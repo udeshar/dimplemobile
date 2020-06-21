@@ -47,11 +47,11 @@ header{
 
 
 .per{
-   min-height: 20vh;
+   min-height: 40vh;
    margin-top: 30px;
    background: url('../images/person_pushing_banner.jpg');
    background-size: cover;
-   background-position: right;
+   background-position:100% 100%;
 }
 .per p{
     width: 50%;
@@ -334,6 +334,7 @@ header{
         background-position:60% 30%;
         background-repeat: no-repeat;
         background-color: #ffdb79;
+        min-height: 20vh;
      }
      .per p{
          width: 50%;
