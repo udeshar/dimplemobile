@@ -463,13 +463,17 @@ header{
     }
 }
 @media only screen and (max-width: 575px){
-    .per{
+    /* .per{
         background: url('../images/person_pushing_banner.jpg');
         background-size: cover;
         background-position:60% 30%;
         background-repeat: no-repeat;
         background-color: #ffdb79;
-     }
+     } */
+     .per{
+        background-size: 160% 100%;
+        min-height: 40vh;
+    }
      .per p{
          width: 50%;
          padding: 3% ;
